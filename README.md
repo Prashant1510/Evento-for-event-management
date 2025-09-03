@@ -1,3 +1,39 @@
+# Supabase Event Management App
+
+This is a minimal Next.js app connected to Supabase for event management. It includes:
+- A page to list all upcoming events
+- A page to RSVP to an event (Yes/No/Maybe)
+
+## Setup
+
+1. Clone the repo and install dependencies:
+   ```bash
+   npm install
+   ```
+2. Add your Supabase project URL and anon key to a `.env.local` file:
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Features
+- List all upcoming events from the Events table
+- RSVP to events (Yes/No/Maybe)
+
+## Deployment
+- Deploy to Vercel and connect with Supabase
+
+## To Do
+- Add authentication (optional)
+- Improve UI/UX
+
+---
+Replace placeholder values in `.env.local` with your actual Supabase credentials.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
